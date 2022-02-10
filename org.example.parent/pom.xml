@@ -91,19 +91,19 @@
                   </action>
                 </pluginExecution>
                 <pluginExecution>
-                	<pluginExecutionFilter>
-                		<groupId>org.eclipse.tycho</groupId>
-                		<artifactId>
-                			target-platform-configuration
-                		</artifactId>
-                		<versionRange>[2.6.0,)</versionRange>
-                		<goals>
-                			<goal>target-platform</goal>
-                		</goals>
-                	</pluginExecutionFilter>
-                	<action>
-                		<ignore></ignore>
-                	</action>
+                  <pluginExecutionFilter>
+                    <groupId>org.eclipse.tycho</groupId>
+                    <artifactId>
+                      target-platform-configuration
+                    </artifactId>
+                    <versionRange>[2.6.0,)</versionRange>
+                    <goals>
+                      <goal>target-platform</goal>
+                    </goals>
+                  </pluginExecutionFilter>
+                  <action>
+                    <ignore></ignore>
+                  </action>
                 </pluginExecution>
               </pluginExecutions>
             </lifecycleMappingMetadata>
