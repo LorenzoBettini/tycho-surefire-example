@@ -11,6 +11,7 @@
 
   <modules>
     <module>../org.example.plugin1</module>
+    <module>../org.example.plugin1.tests</module>
   </modules>
 
   <properties>
