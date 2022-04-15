@@ -13,15 +13,6 @@
   <artifactId>org.example.plugin1</artifactId>
   <packaging>eclipse-plugin</packaging>
 
-  <dependencies>
-    <dependency>
-      <groupId>org.junit.jupiter</groupId>
-      <artifactId>junit-jupiter</artifactId>
-      <version>5.8.1</version>
-      <scope>test</scope>
-    </dependency>
-  </dependencies>
-
   <build>
     <pluginManagement>
       <plugins>
