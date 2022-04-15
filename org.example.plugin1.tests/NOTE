@@ -1,0 +1,2 @@
+Here setting the JUnit 4 classpath container is not enough:
+you need the required bundle
