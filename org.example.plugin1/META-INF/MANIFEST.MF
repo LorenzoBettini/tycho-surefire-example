@@ -1,10 +1,12 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
-Bundle-Name: %pluginName
-Bundle-SymbolicName: org.example.plugin1;singleton:=true
+Bundle-Name: Example Plugin 1
+Bundle-SymbolicName: org.example.plugin1
 Bundle-Version: 1.0.0.qualifier
 Bundle-Vendor: Lorenzo Bettini
 Bundle-RequiredExecutionEnvironment: JavaSE-11
+Import-Package: javax.annotation,
+ org.osgi.framework
 Export-Package: org.example
 Bundle-ActivationPolicy: lazy
 Automatic-Module-Name: org.example.plugin1
